@@ -125,7 +125,7 @@ public class StudentGade extends javax.swing.JFrame {
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
 
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         jLabel10.setText("Khalid Al Hadi School");
 
         TotalMarks.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
@@ -154,7 +154,9 @@ public class StudentGade extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel14.setText("Grade");
 
-        ExitBtn.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ExitBtn.setBackground(new java.awt.Color(255, 51, 51));
+        ExitBtn.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        ExitBtn.setForeground(new java.awt.Color(255, 255, 255));
         ExitBtn.setText("Exit");
         ExitBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -162,7 +164,9 @@ public class StudentGade extends javax.swing.JFrame {
             }
         });
 
-        CalcualteBtn.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        CalcualteBtn.setBackground(new java.awt.Color(0, 204, 102));
+        CalcualteBtn.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        CalcualteBtn.setForeground(new java.awt.Color(255, 255, 255));
         CalcualteBtn.setText("Calculate");
         CalcualteBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -170,7 +174,9 @@ public class StudentGade extends javax.swing.JFrame {
             }
         });
 
-        ClearBtn.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ClearBtn.setBackground(new java.awt.Color(51, 51, 255));
+        ClearBtn.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        ClearBtn.setForeground(new java.awt.Color(255, 255, 255));
         ClearBtn.setText("Clear");
         ClearBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -310,7 +316,7 @@ public class StudentGade extends javax.swing.JFrame {
                                 .addComponent(Grade, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(18, 18, 18)))
                 .addComponent(jLabel5)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 7, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel15)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(allItemsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -411,7 +417,7 @@ public class StudentGade extends javax.swing.JFrame {
         } else if ((per > 60) && (per < 70)) { 
             grade = "E "; 
         } else if ((per > 50) && (per < 60)) { 
-            grade = "Poor "; 
+            grade = "Poor ";
         } else {
             grade = "Enter Your grade";
         }
