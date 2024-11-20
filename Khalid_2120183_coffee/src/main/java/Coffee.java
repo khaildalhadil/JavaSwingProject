@@ -44,7 +44,6 @@ public class Coffee extends javax.swing.JFrame {
         TypeOfCoffeeSelect = new javax.swing.JComboBox<>();
         jLabel4 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        ClearBtn = new javax.swing.JButton();
         PayBtn = new javax.swing.JButton();
         ExitBtn = new javax.swing.JButton();
         smallRadio1 = new javax.swing.JRadioButton();
@@ -69,7 +68,6 @@ public class Coffee extends javax.swing.JFrame {
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
 
         menu1.setLabel("File");
         menuBar1.add(menu1);
@@ -92,7 +90,7 @@ public class Coffee extends javax.swing.JFrame {
         jLabel3.setText("Select The Size: ");
 
         TypeOfCoffeeSelect.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        TypeOfCoffeeSelect.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "espresso", "latte", "cappuccino", "" }));
+        TypeOfCoffeeSelect.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "espresso", "latte", "cappuccino" }));
         TypeOfCoffeeSelect.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TypeOfCoffeeSelectActionPerformed(evt);
@@ -103,15 +101,9 @@ public class Coffee extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Select type of coffee: ");
 
-        ClearBtn.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        ClearBtn.setText("Clear");
-        ClearBtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ClearBtnActionPerformed(evt);
-            }
-        });
-
+        PayBtn.setBackground(new java.awt.Color(0, 153, 102));
         PayBtn.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        PayBtn.setForeground(new java.awt.Color(255, 255, 255));
         PayBtn.setText("get pill");
         PayBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -119,7 +111,9 @@ public class Coffee extends javax.swing.JFrame {
             }
         });
 
+        ExitBtn.setBackground(new java.awt.Color(255, 51, 51));
         ExitBtn.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        ExitBtn.setForeground(new java.awt.Color(255, 255, 255));
         ExitBtn.setText("Exit");
         ExitBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -164,7 +158,7 @@ public class Coffee extends javax.swing.JFrame {
 
         jLabel9.setFont(new java.awt.Font("Snap ITC", 1, 36)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setText("Price ");
+        jLabel9.setText("Price Rial ");
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
@@ -172,7 +166,7 @@ public class Coffee extends javax.swing.JFrame {
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel11.setText("1");
+        jLabel11.setText("1.000");
 
         jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
@@ -188,35 +182,35 @@ public class Coffee extends javax.swing.JFrame {
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel15.setText("2");
+        jLabel15.setText("2.000");
 
         jLabel16.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel16.setText("1.5");
+        jLabel16.setText("1.500");
 
         jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel17.setText("2.1");
+        jLabel17.setText("2.100");
 
         jLabel18.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel18.setText("2.3");
+        jLabel18.setText("2.300");
 
         jLabel19.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel19.setText("2");
+        jLabel19.setText("2.000");
 
         jLabel20.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel20.setText("1.8");
+        jLabel20.setText("1.800");
 
         jLabel21.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel21.setText("1.4");
+        jLabel21.setText("1.400");
 
         jLabel22.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel22.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel22.setText("1.2");
+        jLabel22.setText("1.200");
 
         jLabel23.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(255, 255, 255));
@@ -225,10 +219,6 @@ public class Coffee extends javax.swing.JFrame {
         jLabel24.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setText("cappuccino");
-
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setText("test");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -246,8 +236,7 @@ public class Coffee extends javax.swing.JFrame {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(jLabel4)
                                 .addGap(18, 18, 18)
-                                .addComponent(TypeOfCoffeeSelect, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(9, 9, 9)
+                                .addComponent(TypeOfCoffeeSelect, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGap(0, 0, Short.MAX_VALUE)
@@ -255,17 +244,19 @@ public class Coffee extends javax.swing.JFrame {
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                                         .addGap(193, 193, 193)
                                         .addComponent(jLabel8)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 82, Short.MAX_VALUE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 76, Short.MAX_VALUE)
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(jLabel9)
                                             .addGroup(jPanel1Layout.createSequentialGroup()
                                                 .addGap(235, 235, 235)
+                                                .addComponent(jLabel10))
+                                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                                .addGap(96, 96, 96)
                                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                                        .addGap(6, 6, 6)
-                                                        .addComponent(jLabel15))
-                                                    .addComponent(jLabel10)))))))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                                    .addComponent(jLabel19)
+                                                    .addComponent(jLabel20))))
+                                        .addGap(31, 31, 31))))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                                         .addComponent(jLabel5)
@@ -273,64 +264,59 @@ public class Coffee extends javax.swing.JFrame {
                                         .addComponent(conuteOfCoffee, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addComponent(jLabel2))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                                .addComponent(jLabel3)
-                                                .addGap(438, 438, 438))
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                                .addComponent(smallRadio1)
-                                                .addGap(53, 53, 53)
-                                                .addComponent(mediemRadio2)
-                                                .addGap(37, 37, 37)
-                                                .addComponent(BigRadio3, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                                    .addComponent(jLabel3)
+                                                    .addGap(438, 438, 438))
+                                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                                    .addComponent(smallRadio1)
+                                                    .addGap(53, 53, 53)
+                                                    .addComponent(mediemRadio2)
+                                                    .addGap(37, 37, 37)
+                                                    .addComponent(BigRadio3, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                                .addGap(155, 155, 155)
+                                                .addComponent(PayBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGap(145, 145, 145)
+                                                .addComponent(ExitBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                         .addGap(30, 30, 30)
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addGroup(jPanel1Layout.createSequentialGroup()
                                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                     .addComponent(jLabel13)
                                                     .addComponent(jLabel24))
-                                                .addGap(18, 18, 18)
-                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                                     .addGroup(jPanel1Layout.createSequentialGroup()
-                                                        .addComponent(jLabel14)
-                                                        .addGap(39, 39, 39)
-                                                        .addComponent(jLabel12)
-                                                        .addGap(0, 0, Short.MAX_VALUE))
-                                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                                        .addGap(19, 19, 19)
+                                                        .addGap(18, 18, 18)
                                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                            .addComponent(jLabel11)
-                                                            .addComponent(jLabel22))
-                                                        .addGap(76, 76, 76)
-                                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                            .addComponent(jLabel16)
+                                                            .addComponent(jLabel14)
                                                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                                                .addComponent(jLabel20)
-                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                                .addComponent(jLabel17))))))
+                                                                .addGap(6, 6, 6)
+                                                                .addComponent(jLabel11)))
+                                                        .addGap(36, 36, 36)
+                                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                                                .addGap(6, 6, 6)
+                                                                .addComponent(jLabel16))
+                                                            .addComponent(jLabel12))
+                                                        .addGap(38, 38, 38))
+                                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                        .addComponent(jLabel22)
+                                                        .addGap(170, 170, 170)))
+                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(jLabel15)
+                                                    .addComponent(jLabel18)
+                                                    .addComponent(jLabel17)))
                                             .addGroup(jPanel1Layout.createSequentialGroup()
                                                 .addComponent(jLabel23)
                                                 .addGap(109, 109, 109)
-                                                .addComponent(jLabel21)
-                                                .addGap(62, 62, 62)
-                                                .addComponent(jLabel19)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                .addComponent(jLabel18))))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(167, 167, 167)
-                                        .addComponent(PayBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(ClearBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(142, 142, 142)
-                                        .addComponent(ExitBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(179, 179, 179)))
+                                                .addComponent(jLabel21)))
+                                        .addGap(0, 0, Short.MAX_VALUE)))
                                 .addGap(2, 2, 2)))))
                 .addGap(41, 41, 41))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(534, 534, 534))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -348,7 +334,7 @@ public class Coffee extends javax.swing.JFrame {
                                 .addGap(57, 57, 57)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(TypeOfCoffeeSelect, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(TypeOfCoffeeSelect, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel9)
@@ -381,8 +367,8 @@ public class Coffee extends javax.swing.JFrame {
                             .addComponent(jLabel15))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel19)
-                            .addComponent(jLabel21))))
+                            .addComponent(jLabel21)
+                            .addComponent(jLabel19))))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -390,8 +376,8 @@ public class Coffee extends javax.swing.JFrame {
                             .addComponent(jLabel17)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                 .addComponent(jLabel24)
-                                .addComponent(jLabel22))
-                            .addComponent(jLabel20)))
+                                .addComponent(jLabel22)
+                                .addComponent(jLabel20))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(14, 14, 14)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -399,14 +385,11 @@ public class Coffee extends javax.swing.JFrame {
                             .addComponent(smallRadio1)
                             .addComponent(BigRadio3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(41, 41, 41)
-                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 62, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 66, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(PayBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ClearBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(ExitBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(23, 23, 23))
+                .addGap(91, 91, 91))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -443,7 +426,7 @@ public class Coffee extends javax.swing.JFrame {
     }//GEN-LAST:event_smallRadio1ActionPerformed
 
     private void ExitBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExitBtnActionPerformed
-        // TODO add your handling code here:
+        System.exit(0);
     }//GEN-LAST:event_ExitBtnActionPerformed
 
     private void PayBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PayBtnActionPerformed
@@ -463,43 +446,77 @@ public class Coffee extends javax.swing.JFrame {
         
         if(TypeOfCoffeeSelect.getSelectedItem() == "espresso" && "Small".equals(size)) {
             total = 1000 * num;
-            JOptionPane.showMessageDialog(null, "Welcom to Khalid Coffee Shop 🌹 \n" + "Your Total Pill is: " + total+" Rial Omani");
-        } 
+            double b = (double) total/1000;
+            JOptionPane.showMessageDialog(null, 
+                    "Welcome to Khalid Coffee Shop 🌹 \n" + 
+                    "Your Total Pill is: "+ b +"00"+" Rial Omani \n" +
+                    "1.000 X "+num+" = " + b +"00"
+            );        } 
         if (TypeOfCoffeeSelect.getSelectedItem() == "espresso" && "Mediem".equals(size)) {
             total = 1500 * num;
-            JOptionPane.showMessageDialog(null, "Welcom to Khalid Coffee Shop 🌹 \n" + "Your Total Pill is: " + total+" Rial Omani");
-        }
+            double b = (double) total/1000;
+            JOptionPane.showMessageDialog(null, 
+                    "Welcome to Khalid Coffee Shop 🌹 \n" + 
+                    "Your Total Pill is: "+ b +"00"+" Rial Omani \n" +
+                    "1.500 X "+num+" = " + b +"00"
+            );        }
         if (TypeOfCoffeeSelect.getSelectedItem() == "espresso" && "Big".equals(size)) {
             total = 2000 * num;
-            JOptionPane.showMessageDialog(null, "Welcom to Khalid Coffee Shop 🌹 \n" + "Your Total Pill is: " + total+" Rial Omani");
-        }
+            double b = (double) total/1000;
+            JOptionPane.showMessageDialog(null, 
+                    "Welcome to Khalid Coffee Shop 🌹 \n" + 
+                    "Your Total Pill is: "+ b +"00"+" Rial Omani \n" +
+                    "2.000 X "+num+" = " + b +"00"
+            );        }
         
         if (TypeOfCoffeeSelect.getSelectedItem() == "latte" && "Mediem".equals(size)) {
             total = 2000 * num;
-            JOptionPane.showMessageDialog(null, "Welcom to Khalid Coffee Shop 🌹 \n" + "Your Total Pill is: " + total+" Rial Omani");
-        }
+            double b = (double) total/1000;
+            JOptionPane.showMessageDialog(null, 
+                    "Welcome to Khalid Coffee Shop 🌹 \n" + 
+                    "Your Total Pill is: "+ b +"00"+" Rial Omani \n" +
+                    "2.000 X "+num+" = " + b +"00"
+            );        }
         if (TypeOfCoffeeSelect.getSelectedItem() == "latte" && "Small".equals(size)) {
             total = 1400 * num;
-            JOptionPane.showMessageDialog(null, "Welcom to Khalid Coffee Shop 🌹 \n" + "Your Total Pill is: " + total+" Rial Omani");
-        }
+            double b = (double) total/1000;
+            JOptionPane.showMessageDialog(null, 
+                    "Welcome to Khalid Coffee Shop 🌹 \n" + 
+                    "Your Total Pill is: "+ b +"00"+" Rial Omani \n" +
+                    "1.400 X "+num+" = " + b +"00"
+            );        }
         if (TypeOfCoffeeSelect.getSelectedItem() == "latte" && "Big".equals(size)) {
             total = 2300 * num;
-            JOptionPane.showMessageDialog(null, "Welcom to Khalid Coffee Shop 🌹 \n" + "Your Total Pill is: " + total+" Rial Omani");
-        }
+            double b = (double) total/1000;
+            JOptionPane.showMessageDialog(null, 
+                    "Welcome to Khalid Coffee Shop 🌹 \n" + 
+                    "Your Total Pill is: "+ b +"00"+" Rial Omani \n" +
+                    "2.300 X "+num+" = " + b +"00"
+            );        }
         if (TypeOfCoffeeSelect.getSelectedItem() == "cappuccino" && "Small".equals(size)) {
             total = 1200 * num;
-            JOptionPane.showMessageDialog(null, "Welcom to Khalid Coffee Shop 🌹 \n" + "Your Total Pill is: " + total+" Rial Omani");
-        }
+            double b = (double) total/1000;
+            JOptionPane.showMessageDialog(null, 
+                    "Welcome to Khalid Coffee Shop 🌹 \n" + 
+                    "Your Total Pill is: "+ b +"00"+" Rial Omani \n" +
+                    "1.200 X "+num+" = " + b +"00"
+            );        }
         if (TypeOfCoffeeSelect.getSelectedItem() == "cappuccino" && "Mediem".equals(size)) {
             total = 1800 * num;
-            JOptionPane.showMessageDialog(null, "Welcom to Khalid Coffee Shop 🌹 \n" + "Your Total Pill is: " + total+" Rial Omani");
+            double b = (double) total/1000;
+            JOptionPane.showMessageDialog(null, 
+                    "Welcome to Khalid Coffee Shop 🌹 \n" + 
+                    "Your Total Pill is: "+ b +"00"+" Rial Omani \n" +
+                    "1.800 X "+num+" = " + b +"00"
+            );
         }
         if (TypeOfCoffeeSelect.getSelectedItem() == "cappuccino" && "Big".equals(size)) {
             total = 2100 * num;
+            double b = (double) total/1000;
             JOptionPane.showMessageDialog(null, 
-                    "Welcom to Khalid Coffee Shop 🌹 \n" + 
-                    "Your Total Pill is: "+ total+" Rial Omani \n" +
-                    "2100 X "+num+" = " +total
+                    "Welcome to Khalid Coffee Shop 🌹 \n" + 
+                    "Your Total Pill is: "+ b +"00"+" Rial Omani \n" +
+                    "2.100 X "+num+" = " + b +"00"
             );
         }
         
@@ -509,10 +526,6 @@ public class Coffee extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_PayBtnActionPerformed
-
-    private void ClearBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ClearBtnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ClearBtnActionPerformed
 
     private void TypeOfCoffeeSelectActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TypeOfCoffeeSelectActionPerformed
         // TODO add your handling code here:
@@ -569,7 +582,6 @@ public class Coffee extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JRadioButton BigRadio3;
-    private javax.swing.JButton ClearBtn;
     private javax.swing.JButton ExitBtn;
     private javax.swing.JButton PayBtn;
     private javax.swing.JComboBox<String> TypeOfCoffeeSelect;
@@ -595,7 +607,6 @@ public class Coffee extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
